@@ -10,4 +10,8 @@ class DefaultController extends Controller
     {
         return $this->render('TutoBundle:Default:index.html.twig');
     }
+    public function pageAction()
+    {
+        return $this->render('TutoBundle:Default:page.html.twig');    	
+    }
 }

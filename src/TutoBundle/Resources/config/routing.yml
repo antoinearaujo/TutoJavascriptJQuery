@@ -1,3 +1,7 @@
 tuto_homepage:
     path:     /
     defaults: { _controller: TutoBundle:Default:index }
+
+tuto_jquery:
+    path:     /page
+    defaults: { _controller: TutoBundle:Default:page }

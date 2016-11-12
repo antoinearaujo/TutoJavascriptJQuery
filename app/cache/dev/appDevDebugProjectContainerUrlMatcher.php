@@ -114,6 +114,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'TutoBundle\\Controller\\DefaultController::indexAction',  '_route' => 'tuto_homepage',);
         }
 
+        // tuto_jquery
+        if ($pathinfo === '/page') {
+            return array (  '_controller' => 'TutoBundle\\Controller\\DefaultController::pageAction',  '_route' => 'tuto_jquery',);
+        }
+
         // homepage
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {
