@@ -15,8 +15,8 @@ class __TwigTemplate_a7468cf65d3fc5b1d954448dad2e8ca11cc11812ed16e8dde775a0f232e
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_0353bb103a44a620363ec7d06cb0d42d1607eebac7b1a91e5a91a59afac2dd6d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_0353bb103a44a620363ec7d06cb0d42d1607eebac7b1a91e5a91a59afac2dd6d->enter($__internal_0353bb103a44a620363ec7d06cb0d42d1607eebac7b1a91e5a91a59afac2dd6d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TutoBundle:Default:index.html.twig"));
+        $__internal_5ad4478164d0203313f551b545f4302b22383f1733a25f7b957f838b1b6fb5c8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_5ad4478164d0203313f551b545f4302b22383f1733a25f7b957f838b1b6fb5c8->enter($__internal_5ad4478164d0203313f551b545f4302b22383f1733a25f7b957f838b1b6fb5c8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TutoBundle:Default:index.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">
@@ -159,6 +159,68 @@ class __TwigTemplate_a7468cf65d3fc5b1d954448dad2e8ca11cc11812ed16e8dde775a0f232e
   <!-- ici se trouve le contenu de la page web -->
      
      <h1 style=\"text-align: center;\"><strong>Test Javascript/JQuery</strong></h1>
+     <!DOCTYPE html>
+<html lang=\"en\">
+<head>
+<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\" />
+<meta charset=\"utf-8\" />
+<meta name=\"author\" content=\"Script Tutorials\" />
+<title>Responsive menu | Script Tutorials</title>
+<!-- add styles -->
+<link href=\"css/main.css\" rel=\"stylesheet\" type=\"text/css\" />
+</head>
+<body>
+<div class=\"container\">
+<ul id=\"nav\">
+<li><a href=\"#\">Home</a></li>
+<li><a href=\"#s1\">Menu 1</a>
+<span id=\"s1\"></span>
+<ul class=\"subs\">
+<li><a href=\"#\">Header a</a>
+<ul>
+<li><a href=\"#\">Submenu x</a></li>
+<li><a href=\"#\">Submenu y</a></li>
+<li><a href=\"#\">Submenu z</a></li>
+</ul>
+</li>
+<li><a href=\"#\">Header b</a>
+<ul>
+<li><a href=\"#\">Submenu x</a></li>
+<li><a href=\"#\">Submenu y</a></li>
+<li><a href=\"#\">Submenu z</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=\"active\"><a href=\"#s2\">Menu 2</a>
+<span id=\"s2\"></span>
+<ul class=\"subs\">
+<li><a href=\"#\">Header c</a>
+<ul>
+<li><a href=\"#\">Submenu x</a></li>
+<li><a href=\"#\">Submenu y</a></li>
+<li><a href=\"#\">Submenu z</a></li>
+</ul>
+</li>
+<li><a href=\"#\">Header d</a>
+<ul>
+<li><a href=\"#\">Submenu x</a></li>
+<li><a href=\"#\">Submenu y</a></li>
+<li><a href=\"#\">Submenu z</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href=\"#\">Menu 3</a></li>
+<li><a href=\"#\">Menu 4</a></li>
+<li><a href=\"#\">Menu 5</a></li>
+<li><a href=\"https://www.script-tutorials.com/css3-responsive-menu/\">Back to Responsive menu tutorial</a></li>
+</ul>
+</div>
+</body>
+</html>
+
+
 
  <p style=\"text-align: center;\"><i><strong> Profil :</strong></i></br></br>
 
@@ -183,12 +245,12 @@ class __TwigTemplate_a7468cf65d3fc5b1d954448dad2e8ca11cc11812ed16e8dde775a0f232e
 
 <div class=\"parent2\">
     <a href=\"";
-        // line 155
+        // line 217
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("tuto_homepage");
         echo "\"><div class=\"test4\" ><i class=\"fa fa-envelope-o fa-2x\"></i></div></a>
 
  <a href=\"";
-        // line 157
+        // line 219
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("tuto_jquery");
         echo "\"><div class=\"test1\" href=\"";
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("tuto_homepage");
@@ -197,7 +259,7 @@ class __TwigTemplate_a7468cf65d3fc5b1d954448dad2e8ca11cc11812ed16e8dde775a0f232e
   <div class=\"test3\"><i class=\"fa fa-code fa-2x\"></i></div>
   <div class=\"mask2\"><i class=\"fa fa-home fa-3x\"></i></div></div>
 
-      </script>
+      
   </body>
 
 
@@ -206,7 +268,7 @@ class __TwigTemplate_a7468cf65d3fc5b1d954448dad2e8ca11cc11812ed16e8dde775a0f232e
 
 </html>";
         
-        $__internal_0353bb103a44a620363ec7d06cb0d42d1607eebac7b1a91e5a91a59afac2dd6d->leave($__internal_0353bb103a44a620363ec7d06cb0d42d1607eebac7b1a91e5a91a59afac2dd6d_prof);
+        $__internal_5ad4478164d0203313f551b545f4302b22383f1733a25f7b957f838b1b6fb5c8->leave($__internal_5ad4478164d0203313f551b545f4302b22383f1733a25f7b957f838b1b6fb5c8_prof);
 
     }
 
@@ -222,7 +284,7 @@ class __TwigTemplate_a7468cf65d3fc5b1d954448dad2e8ca11cc11812ed16e8dde775a0f232e
 
     public function getDebugInfo()
     {
-        return array (  192 => 157,  187 => 155,  39 => 10,  35 => 9,  31 => 8,  22 => 1,);
+        return array (  254 => 219,  249 => 217,  39 => 10,  35 => 9,  31 => 8,  22 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -366,6 +428,68 @@ class __TwigTemplate_a7468cf65d3fc5b1d954448dad2e8ca11cc11812ed16e8dde775a0f232e
   <!-- ici se trouve le contenu de la page web -->
      
      <h1 style=\"text-align: center;\"><strong>Test Javascript/JQuery</strong></h1>
+     <!DOCTYPE html>
+<html lang=\"en\">
+<head>
+<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\" />
+<meta charset=\"utf-8\" />
+<meta name=\"author\" content=\"Script Tutorials\" />
+<title>Responsive menu | Script Tutorials</title>
+<!-- add styles -->
+<link href=\"css/main.css\" rel=\"stylesheet\" type=\"text/css\" />
+</head>
+<body>
+<div class=\"container\">
+<ul id=\"nav\">
+<li><a href=\"#\">Home</a></li>
+<li><a href=\"#s1\">Menu 1</a>
+<span id=\"s1\"></span>
+<ul class=\"subs\">
+<li><a href=\"#\">Header a</a>
+<ul>
+<li><a href=\"#\">Submenu x</a></li>
+<li><a href=\"#\">Submenu y</a></li>
+<li><a href=\"#\">Submenu z</a></li>
+</ul>
+</li>
+<li><a href=\"#\">Header b</a>
+<ul>
+<li><a href=\"#\">Submenu x</a></li>
+<li><a href=\"#\">Submenu y</a></li>
+<li><a href=\"#\">Submenu z</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=\"active\"><a href=\"#s2\">Menu 2</a>
+<span id=\"s2\"></span>
+<ul class=\"subs\">
+<li><a href=\"#\">Header c</a>
+<ul>
+<li><a href=\"#\">Submenu x</a></li>
+<li><a href=\"#\">Submenu y</a></li>
+<li><a href=\"#\">Submenu z</a></li>
+</ul>
+</li>
+<li><a href=\"#\">Header d</a>
+<ul>
+<li><a href=\"#\">Submenu x</a></li>
+<li><a href=\"#\">Submenu y</a></li>
+<li><a href=\"#\">Submenu z</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href=\"#\">Menu 3</a></li>
+<li><a href=\"#\">Menu 4</a></li>
+<li><a href=\"#\">Menu 5</a></li>
+<li><a href=\"https://www.script-tutorials.com/css3-responsive-menu/\">Back to Responsive menu tutorial</a></li>
+</ul>
+</div>
+</body>
+</html>
+
+
 
  <p style=\"text-align: center;\"><i><strong> Profil :</strong></i></br></br>
 
@@ -396,7 +520,7 @@ class __TwigTemplate_a7468cf65d3fc5b1d954448dad2e8ca11cc11812ed16e8dde775a0f232e
   <div class=\"test3\"><i class=\"fa fa-code fa-2x\"></i></div>
   <div class=\"mask2\"><i class=\"fa fa-home fa-3x\"></i></div></div>
 
-      </script>
+      
   </body>
 
 
