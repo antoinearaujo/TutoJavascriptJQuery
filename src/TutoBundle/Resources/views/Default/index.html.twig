@@ -6,10 +6,22 @@
 
   <title>TutoJavascript</title>
  <script src="{{ asset('bundles/framework/js/jquery.min.js') }}"></script>
+      <script src="{{ asset('bundles/framework/js/jquery_test.js') }}"></script>
+     <link href="{{ asset('bundles/framework/css/styles.css') }}" type="text/css" rel="stylesheet" />
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 </head>
 
 <body style="background-color: #F00000">
+
+       <script type="text/javascript">
+  <!--
+    jQuery(document).ready(function($){
+    $('#exemple-fadetoggle a').click(function(e){
+        $('#exemple-fadetoggle span').fadeToggle();
+    });
+});
+    </script>
 
 
 
@@ -139,8 +151,13 @@
 
 
 
-  <span id="texteJQ"></span>
- <script src="{{ asset('bundles/framework/js/jquery_test.js') }}"></script>
+<div class="parent2">
+    <a href="{{ path('tuto_homepage') }}"><div class="test4" ><i class="fa fa-envelope-o fa-2x"></i></div></a>
+
+ <a href="{{ path('tuto_jquery') }}"><div class="test1" href="{{ path('tuto_homepage') }}"><i class="fa fa-user fa-2x"></i></div></a>
+  <div class="test2"><i class="fa fa-graduation-cap fa-2x"></i></div>
+  <div class="test3"><i class="fa fa-code fa-2x"></i></div>
+  <div class="mask2"><i class="fa fa-home fa-3x"></i></div></div>
 
       </script>
   </body>

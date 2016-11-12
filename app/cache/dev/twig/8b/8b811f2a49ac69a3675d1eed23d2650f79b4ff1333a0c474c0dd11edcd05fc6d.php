@@ -15,8 +15,8 @@ class __TwigTemplate_a7468cf65d3fc5b1d954448dad2e8ca11cc11812ed16e8dde775a0f232e
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_f85a431ee3c244881ad80e617634d642ad6b3fa31983a15cca913950263ab8a0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_f85a431ee3c244881ad80e617634d642ad6b3fa31983a15cca913950263ab8a0->enter($__internal_f85a431ee3c244881ad80e617634d642ad6b3fa31983a15cca913950263ab8a0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TutoBundle:Default:index.html.twig"));
+        $__internal_0353bb103a44a620363ec7d06cb0d42d1607eebac7b1a91e5a91a59afac2dd6d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0353bb103a44a620363ec7d06cb0d42d1607eebac7b1a91e5a91a59afac2dd6d->enter($__internal_0353bb103a44a620363ec7d06cb0d42d1607eebac7b1a91e5a91a59afac2dd6d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TutoBundle:Default:index.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">
@@ -30,10 +30,28 @@ class __TwigTemplate_a7468cf65d3fc5b1d954448dad2e8ca11cc11812ed16e8dde775a0f232e
         // line 8
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/framework/js/jquery.min.js"), "html", null, true);
         echo "\"></script>
+      <script src=\"";
+        // line 9
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/framework/js/jquery_test.js"), "html", null, true);
+        echo "\"></script>
+     <link href=\"";
+        // line 10
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/framework/css/styles.css"), "html", null, true);
+        echo "\" type=\"text/css\" rel=\"stylesheet\" />
+      <link rel=\"stylesheet\" href=\"http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css\">
   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\" />
 </head>
 
 <body style=\"background-color: #F00000\">
+
+       <script type=\"text/javascript\">
+  <!--
+    jQuery(document).ready(function(\$){
+    \$('#exemple-fadetoggle a').click(function(e){
+        \$('#exemple-fadetoggle span').fadeToggle();
+    });
+});
+    </script>
 
 
 
@@ -163,11 +181,21 @@ class __TwigTemplate_a7468cf65d3fc5b1d954448dad2e8ca11cc11812ed16e8dde775a0f232e
 
 
 
-  <span id=\"texteJQ\"></span>
- <script src=\"";
-        // line 143
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/framework/js/jquery_test.js"), "html", null, true);
-        echo "\"></script>
+<div class=\"parent2\">
+    <a href=\"";
+        // line 155
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("tuto_homepage");
+        echo "\"><div class=\"test4\" ><i class=\"fa fa-envelope-o fa-2x\"></i></div></a>
+
+ <a href=\"";
+        // line 157
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("tuto_jquery");
+        echo "\"><div class=\"test1\" href=\"";
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("tuto_homepage");
+        echo "\"><i class=\"fa fa-user fa-2x\"></i></div></a>
+  <div class=\"test2\"><i class=\"fa fa-graduation-cap fa-2x\"></i></div>
+  <div class=\"test3\"><i class=\"fa fa-code fa-2x\"></i></div>
+  <div class=\"mask2\"><i class=\"fa fa-home fa-3x\"></i></div></div>
 
       </script>
   </body>
@@ -178,7 +206,7 @@ class __TwigTemplate_a7468cf65d3fc5b1d954448dad2e8ca11cc11812ed16e8dde775a0f232e
 
 </html>";
         
-        $__internal_f85a431ee3c244881ad80e617634d642ad6b3fa31983a15cca913950263ab8a0->leave($__internal_f85a431ee3c244881ad80e617634d642ad6b3fa31983a15cca913950263ab8a0_prof);
+        $__internal_0353bb103a44a620363ec7d06cb0d42d1607eebac7b1a91e5a91a59afac2dd6d->leave($__internal_0353bb103a44a620363ec7d06cb0d42d1607eebac7b1a91e5a91a59afac2dd6d_prof);
 
     }
 
@@ -194,7 +222,7 @@ class __TwigTemplate_a7468cf65d3fc5b1d954448dad2e8ca11cc11812ed16e8dde775a0f232e
 
     public function getDebugInfo()
     {
-        return array (  169 => 143,  31 => 8,  22 => 1,);
+        return array (  192 => 157,  187 => 155,  39 => 10,  35 => 9,  31 => 8,  22 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -215,10 +243,22 @@ class __TwigTemplate_a7468cf65d3fc5b1d954448dad2e8ca11cc11812ed16e8dde775a0f232e
 
   <title>TutoJavascript</title>
  <script src=\"{{ asset('bundles/framework/js/jquery.min.js') }}\"></script>
+      <script src=\"{{ asset('bundles/framework/js/jquery_test.js') }}\"></script>
+     <link href=\"{{ asset('bundles/framework/css/styles.css') }}\" type=\"text/css\" rel=\"stylesheet\" />
+      <link rel=\"stylesheet\" href=\"http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css\">
   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\" />
 </head>
 
 <body style=\"background-color: #F00000\">
+
+       <script type=\"text/javascript\">
+  <!--
+    jQuery(document).ready(function(\$){
+    \$('#exemple-fadetoggle a').click(function(e){
+        \$('#exemple-fadetoggle span').fadeToggle();
+    });
+});
+    </script>
 
 
 
@@ -348,8 +388,13 @@ class __TwigTemplate_a7468cf65d3fc5b1d954448dad2e8ca11cc11812ed16e8dde775a0f232e
 
 
 
-  <span id=\"texteJQ\"></span>
- <script src=\"{{ asset('bundles/framework/js/jquery_test.js') }}\"></script>
+<div class=\"parent2\">
+    <a href=\"{{ path('tuto_homepage') }}\"><div class=\"test4\" ><i class=\"fa fa-envelope-o fa-2x\"></i></div></a>
+
+ <a href=\"{{ path('tuto_jquery') }}\"><div class=\"test1\" href=\"{{ path('tuto_homepage') }}\"><i class=\"fa fa-user fa-2x\"></i></div></a>
+  <div class=\"test2\"><i class=\"fa fa-graduation-cap fa-2x\"></i></div>
+  <div class=\"test3\"><i class=\"fa fa-code fa-2x\"></i></div>
+  <div class=\"mask2\"><i class=\"fa fa-home fa-3x\"></i></div></div>
 
       </script>
   </body>
