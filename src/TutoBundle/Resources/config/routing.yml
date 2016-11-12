@@ -1,0 +1,3 @@
+tuto_homepage:
+    path:     /
+    defaults: { _controller: TutoBundle:Default:index }

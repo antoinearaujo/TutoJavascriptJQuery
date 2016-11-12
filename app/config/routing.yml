@@ -1,0 +1,7 @@
+tuto:
+    resource: "@TutoBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
